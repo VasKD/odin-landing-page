@@ -9,6 +9,8 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* SECTION ONE */
+
 .section-one {
     background-color: #1f2937;
     color: white;
@@ -49,8 +51,9 @@ a {
 }
 
 .awesome p {
-    font-size: 18px;
+    font-size: 16px;
     color: #e5e7eb;
+    font-weight: 300;
 }
 
 .awesome {
@@ -76,6 +79,9 @@ a {
     width: 450px;
     height: 200px;
 }
+
+
+/* SECTION TWO */
 
 .section-two {
     text-align: center;
@@ -117,4 +123,26 @@ a {
     height: 130px;
     width: 130px;
     margin-bottom: 10px;
+}
+
+
+/* SECTION THREE */
+
+.section-three {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 80px 310px 80px 310px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 40px;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
 }
