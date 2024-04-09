@@ -1,0 +1,79 @@
+* {
+    /* fix white border around container div */
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+.section-one {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 180px 80px 180px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.sec-one-body {
+    display: flex;
+    gap: 20px;
+}
+
+.awesome h2 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9f7f8
+}
+
+.awesome p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.awesome {
+    width: 50%;
+}
+
+.button-one {
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 25px;
+    font: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #838c9a;
+    width: 450px;
+    height: 200px;
+}
+
