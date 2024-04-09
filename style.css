@@ -3,10 +3,13 @@
     margin: 0;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .container {
     display: flex;
     flex-direction: column;
-    font-family: "Roboto", sans-serif;
 }
 
 /* SECTION ONE */
@@ -175,4 +178,16 @@ a {
 
 .text p {
     color: #e5e7eb;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 30px 100px 30px 100px;
+    text-align: center;
+    color: white;
+    background-color: #1f2937;
+    font-weight: 300;
+    font-size: 14px;
 }
