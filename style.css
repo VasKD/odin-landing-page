@@ -146,3 +146,33 @@ a {
     font-weight: bold;
     text-align: right;
 }
+
+/* SECTION FOUR */
+
+.section-four {
+    padding: 100px 200px 100px 200px;
+}
+
+.sec-four-container {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 40px 100px 40px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-two{ 
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.text p {
+    color: #e5e7eb;
+}
